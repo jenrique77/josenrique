@@ -39,7 +39,8 @@ section#background-metromap {
 
   #upr-rp:hover,
   #sagrado:hover {
-  fill: #62b7f7;
+  width: 65px;
+  height: 65px;
   }
 
   /* Prof Line */
@@ -52,7 +53,7 @@ section#background-metromap {
 
 /* Tooltips */
   .tooltip {
-      cursor: help;
+      cursor: context-menu;
   }
 
   .tooltip .tooltiptext {

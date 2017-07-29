@@ -118,34 +118,48 @@ text#keyTitle {
   	pointer-events: auto;
   }
 
-  .modalDialog div {
+  div .modal-img {
   	max-width: 650px;
+    max-height: 550px;
+  	position: relative;
+  	margin: 10% auto;
+  	padding: 2rem;
+  	border-radius: 10px;
+  	background: #000;
+        color: white;
+  }
+
+  div .modal-text {
+  	max-width: 700px;
     max-height: 650px;
   	position: relative;
   	margin: 10% auto;
-  	padding: 13px 20px 13px 20px;
+  	padding: 2rem;
   	border-radius: 10px;
   	background: #fff;
   }
 
-  	/* background: -moz-linear-gradient(#fff, #999);
-  	background: -webkit-linear-gradient(#fff, #999);
-  	background: -o-linear-gradient(#fff, #999); */
-
   .modalDialog h2,
-  .modalDialog h4 {
+  .modalDialog h4,
+  .modalDialog h3{
     text-align: center;
   }
 
   .modal-text h2 {
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .modal-text h3 {
     font-size: 1.5rem;
+    padding-top: 0.5rem;
     padding-bottom: 0.5rem;
   }
 
   .modal-text h4 {
     font-size: 1.25rem;
     font-weight: bold;
-    margin-top: .5rem;
+    padding-top: .5rem;
     padding-bottom: 0.5rem;
   }
 

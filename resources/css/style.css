@@ -1,20 +1,45 @@
 html {
   font-family: 'Didact Gothic', sans-serif;
-  font-size: 14px;
+  font-size: 15px;
 }
 
+div {
+  border: 1rem solid black;
+}
 /* heather */
 
 header {
+  width: 1024px;
   position: fixed;
   top: 0;
   left: 0;
 }
 
+div.flex-header {
+  display: inline-flex;
+}
+
 #JE-logo img {
-  height: 15%;
-  width: 15%;
-  margin: 12px;
+  height: 60px;
+  width: 170px;
+  margin: 12px 0 12px 12px;
+}
+
+#JE-title h1 {
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 5rem;
+  width: 100%;
+  height: 100%;
+  margin-left: 1rem;
+}
+
+#JE-favs {
+  margin-left: auto;
+}
+
+#JE-favs i {
+  font-size: 2rem;
+
 }
 
 section.conteiner {
@@ -140,8 +165,9 @@ text#keyTitle {
   }
 
   .modalDialog h2,
+  .modalDialog h3,
   .modalDialog h4,
-  .modalDialog h3{
+  .modalDialog h5 {
     text-align: center;
   }
 

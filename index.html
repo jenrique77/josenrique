@@ -1,18 +1,38 @@
 <!DOCTYPE html>
 <html>
+
   <head>
+
     <meta charset="utf-8">
-    <title>JE-Metro Resume</title>
+    <title>José Enrique | Metro Resume</title>
+    <link rel="shortcut icon" href="./resources/images/Logo-bw-JE.png" />
     <link rel="stylesheet" href="./resources/css/style.css" type="text/css">
     <link rel="stylesheet" href="./resources/css/reset.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Didact+Gothic&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+
   </head>
+
   <body>
 
     <header>
 
-      <div id="JE-logo">
-        <img src="./resources/images/Logo-bw-JE.png" alt="Josenrique's Logo">
+      <div class="flex-header">
+
+        <div id="JE-logo">
+          <img src="./resources/images/Logo-bw-JE.png" alt="Josenrique's Logo">
+        </div>
+
+        <div id="JE-title">
+          <h1>|  Metro Resume</h1>
+        </div>
+
+        <div id="JE-favs">
+          <i class="fa fa-user-circle"></i>
+          <i class="fa fa-envelope-square"></i>
+          <i class="fa fa-linkedin-square"></i>
+        </div>
+
       </div>
 
     </header>
@@ -128,19 +148,13 @@
                 </a>
               </g>
 
-              <g class="life-stop" x="1370" y="385.809">
-
-
-              </g>
+              <!-- US Section Starts -->
 
               <g class="life-stop" x="1370" y="385.809">
                     <image id="move-bandera" class="click" x="1340" y="355.95" xlink:href="./resources/images/us.png" width="60" height="60" />
                     <image id="move-maleta" class="click" x="1340" y="355.95" xlink:href="./resources/images/maleta.png" width="60" height="60" />
                     <circle id="move" class="click" cx="1370" cy="385.95" r="30" stroke="black" stroke-width="5" fill="none" />
-
               </g>
-
-              <!-- US Section Starts -->
 
               <g class="life-stop" x="1481.116" y="384.93">
                 <image id="ma-usa" x="1456.116" y="359.93" xlink:href="./resources/images/ma-map.png" width="50" height="50" />
@@ -178,18 +192,16 @@
                   <circle id="northcarolina" class="click" cx="2004.097" cy="384.93" r="25" stroke="black" stroke-width="5" fill="none" />
               </g>
 
-              <g class="life-stop" x="2066.935" y="385.809">
-                <a xlink:href="" >
-                  <image id="nc-map" x="2051.935" y="370.809" xlink:href="./resources/images/nc-map.png" width="30" height="30" />
-                  <circle id="nc-co" class="click" cx="2066.935" cy="385.809" r="15" stroke="black" stroke-width="3.5" fill="none" />
-                </a>
+              <g class="life-stop tooltip" x="2066.935" y="385.809">
+                <text class="tooltiptext" transform="translate(2100.692,345.136)">Road Trip: NC to CO</text>
+                <image id="nc-map" x="2051.935" y="370.809" xlink:href="./resources/images/nc-map.png" width="30" height="30" />
+                <circle id="nc-co" class="click" cx="2066.935" cy="385.809" r="15" stroke="black" stroke-width="3.5" fill="none" />
               </g>
 
-              <g class="life-stop" x="2134.449" y="385.809">
-                <a xlink:href="" >
-                  <image id="col-map" x="2119.449" y="370.809" xlink:href="./resources/images/co-map.png" width="30" height="30" />
-                  <circle id="co-nc" class="click" cx="2134.449" cy="385.809" r="15" stroke="black" stroke-width="3.5" fill="none" />
-                </a>
+              <g class="life-stop tooltip" x="2134.449" y="385.809">
+                <text class="tooltiptext" transform="translate(2100.692,345.136)">Road Trip: NC to CO</text>
+                <image id="col-map" x="2119.449" y="370.809" xlink:href="./resources/images/co-map.png" width="30" height="30" />
+                <circle id="co-nc" class="click" cx="2134.449" cy="385.809" r="15" stroke="black" stroke-width="3.5" fill="none" />
               </g>
 
         <!-- Life Line Stops Ends Here -->
@@ -262,28 +274,28 @@
               </g>
 
               <g class="education-stop" x="1755.399" y="487.908">
-                <a xlink:href="#" >
+                <a xlink:href="#openSCSU" >
                   <image id="scsu-logo" x="1730.399" y="464.014" xlink:href="./resources/images/scsu-logo.png" width="50" height="50" />
-                  <circle id="hcc" class="click" cx="1755.399" cy="489.014" r="25" stroke="#2c438f" stroke-width="5" fill="none" />
+                  <circle id="scsu" class="click" cx="1755.399" cy="489.014" r="25" stroke="#2c438f" stroke-width="5" fill="none" />
                 </a>
               </g>
 
               <g class="education-stop" x="1889.986" y="489.014">
-                <a xlink:href="" >
+                <a xlink:href="#openHCC" >
                   <image id="hcc-logo" x="1865.612" y="464.014" xlink:href="./resources/images/hcc-logo.png" width="50" height="50" />
                   <circle id="hcc" class="click" cx="1889.986" cy="489.014" r="25" stroke="#1eb04d" stroke-width="5" fill="none" />
                 </a>
               </g>
 
               <g class="education-stop" x="2123.876" y="487.908">
-                <a xlink:href="" >
+                <a xlink:href="#openUNC-CH" >
                   <image id="uncch-logo" x="2115" y="473" xlink:href="./resources/images/unc-logo.png" width="30" height="30" />
                   <circle id="unc-courses" class="click" cx="2130" cy="488" r="17.5" stroke="#559fd3" stroke-width="5" fill="none" />
                 </a>
               </g>
 
               <g class="education-stop" x="2190.934" y="487.908">
-                <a xlink:href="">
+                <a xlink:href="#openCodecademy">
                   <image id="codecademy-logo" x="2175.934" y="473" xlink:href="./resources/images/codecademy-logo.png" width="30" height="30" />
                   <circle id="codecademy" class="click" cx="2190.934" cy="487.908" r="17.5" stroke="#204056" stroke-width="5" fill="none" />
                 </a>
@@ -927,6 +939,62 @@
         <h4>Instructional Systems and Educational Technology</h4>
       </div>
 
+    </div>
+
+    <div id="openSCSU" class="modalDialog">
+
+      <div class="modal-text">
+        <a href="#close" title="Close" class="close">X</a>
+        <h2>Southern Connecticut State University</h2>
+        <h3>New Heaven, CT</h3>
+        <h4>World Languages</h4>
+        <h5>WLL-403: Second Language Acquisition</h6>
+        <h5>WLL-491: Methods of Teaching Foreign Languages (Secondary School)</h5>
+      </div>
+
+    </div>
+
+    <div id="openHCC" class="modalDialog">
+
+      <div class="modal-text">
+        <a href="#close" title="Close" class="close">X</a>
+        <h2>Holyoke Community College</h2>
+        <h3>Holyoke, MA</h3>
+        <h4>Graphic Design</h4>
+        <h5>ART-256: Commercial Art and Design I</h5>
+        <h5>ART-257: Commercial Art and Design II</h5>
+      </div>
+
+    </div>
+
+    <div id="openUNC-CH" class="modalDialog">
+
+      <div class="modal-text">
+        <a href="#close" title="Close" class="close">X</a>
+        <h2>University Of North Carolina</h2>
+        <h3>Chapel Hill, NC</h3>
+        <h4>Art History</h4>
+        <h5>ARTH 159: The Film Experience</h5>
+      </div>
+
+    </div>
+
+    <div id="openCodecademy" class="modalDialog">
+
+      <div class="modal-text">
+        <a href="#close" title="Close" class="close">X</a>
+        <h2><a href="https://www.codecademy.com" target="_blank">Codecademy</a></h2>
+        <h3>Freelance Website Development Online Course</h3>
+        <p>Intensive online course that covers the skills professionals use to develop websites from scratch:</p>
+        <ul>
+          <li>HTML and CSS</li>
+          <li>Command Line and Git</li>
+          <li>Display and Positioning</li>
+          <li>Responsive Design and Browser Compatibility</li>
+          <li>Design and UI Feedback</li>
+          <li>Bootstrap, JavaScript, and jQuery</li>
+        </ul>
+      </div>
 
     </div>
 

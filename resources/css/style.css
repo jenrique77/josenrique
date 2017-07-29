@@ -50,7 +50,16 @@ section#background-metromap {
 
   /* Prof Skills Line */
 
+.keyInfo text {
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 20px;
+  text-anchor: start;
+}
 
+text#keyTitle {
+  fill: white;
+  text-anchor: middle;
+}
 
 /* Tooltips */
   .tooltip {
@@ -128,26 +137,26 @@ section#background-metromap {
     text-align: center;
   }
 
-  .modalDialog h2 {
+  .modal-text h2 {
     font-size: 1.5rem;
     padding-bottom: 0.5rem;
   }
 
-  .modalDialog h4 {
+  .modal-text h4 {
     font-size: 1.25rem;
     font-weight: bold;
     margin-top: .5rem;
     padding-bottom: 0.5rem;
   }
 
-  .modalDialog ul {
+  .modal-text ul {
     line-height: 1.5;
     list-style-type: square;
     margin-left: 1rem;
     text-align: justify;
   }
 
-  .modalDialog li{
+  .modal-text li{
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
   }

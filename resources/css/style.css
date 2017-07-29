@@ -1,5 +1,6 @@
 html {
   font-family: 'Didact Gothic', sans-serif;
+  font-size: 14px;
 }
 
 /* heather */
@@ -109,8 +110,8 @@ section#background-metromap {
   }
 
   .modalDialog div {
-  	max-width: 600px;
-    max-height: 600px;
+  	max-width: 650px;
+    max-height: 650px;
   	position: relative;
   	margin: 10% auto;
   	padding: 13px 20px 13px 20px;
@@ -127,8 +128,32 @@ section#background-metromap {
     text-align: center;
   }
 
+  .modalDialog h2 {
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .modalDialog h4 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: .5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .modalDialog ul {
+    line-height: 1.5;
+    list-style-type: square;
+    margin-left: 1rem;
+    text-align: justify;
+  }
+
+  .modalDialog li{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
   .modalDialog img {
-    max-width: 600px;
+    max-width: 650px;
     max-height: 500px;
     display: block;
     margin: auto;

@@ -209,7 +209,9 @@ text#keyTitle {
     text-align: justify;
   }
 
-  .modal-text li{
+  .modal-text h5,
+  .modal-text p,
+  .modal-text li {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
   }

@@ -167,6 +167,17 @@ text#keyTitle {
         color: white;
   }
 
+  div .modal-object {
+  	max-width: 600px;
+    max-height: 500px;
+  	position: relative;
+  	margin: 10% auto;
+  	padding: 2rem;
+  	border-radius: 10px;
+  	background: #000;
+    text-align: center;
+  }
+
   div .modal-text {
   	max-width: 700px;
     max-height: 650px;
@@ -200,7 +211,7 @@ text#keyTitle {
     font-weight: bold;
     padding-top: .5rem;
     padding-bottom: 0.5rem;
-  }
+}
 
   .modal-text ul {
     line-height: 1.5;

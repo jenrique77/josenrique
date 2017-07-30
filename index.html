@@ -54,7 +54,7 @@
               </g>
 
               <g class="life-stop" x="80.746" y="385.809">
-                <a xlink:href="" >
+                <a xlink:href="#openBD2" >
                   <image id="pr-flag" x="50.756" y="355.809" xlink:href="./resources/images/pr-flag.png" width="60" height="60" />
                   <circle id="b-date2" class="click" cx="80.746" cy="385.809" r="30" stroke="black" stroke-width="5" fill="none" />
                 </a>
@@ -560,15 +560,17 @@
               </g>
 
               <g class="tooltip" x="1549.031" y="605.956">
-                <a xlink:href="">
+                <a xlink:href="#openManuals" id="tooltipmodal">
                   <text class="tooltiptext" transform="translate(1549.031,654.705)">Manuals</text>
                   <circle id="manuals" class="click" cx="1549.031" cy="605.956" r="10" stroke="black" stroke-width="5" fill="white" />
                 </a>
               </g>
 
               <g class="tooltip" x="1599.319" y="605.956">
+                <a xlink:href="#openVideos" id="tooltipmodal">
                   <text class="tooltiptext" transform="translate(1599.319,654.705)">Videos</text>
                   <circle id="videos" class="click" cx="1599.319" cy="605.956" r="10" stroke="black" stroke-width="5" fill="white" />
+                </a>
               </g>
 
               <g class="tooltip" x="1649.607" y="605.956">
@@ -654,10 +656,8 @@
               </g>
 
               <g class="tooltip" x="2203.42" y="551.468">
-                <a xlink:href="#" >
                   <text class="tooltiptext" id="anchor-start" transform="translate(2229.969,561.468)">Website Development</text>
                   <circle id="webdevelopment" class="click" cx="2203.42" cy="551.468" r="12" stroke="black" stroke-width="5" fill="white" />
-                </a>
               </g>
 
           <!-- Arts & Design Skills Line Stops Ends Here -->
@@ -836,10 +836,21 @@
 
   <!-- Life Line Stops Starts Here -->
 
+  <div id="openBD2" class="modalDialog">
+
+    <div class="modal-img">
+      <a href="#close" title="Close" class="close">X</a>
+      <img src="./resources/images/baby-je.jpg" alt="">
+    </div>
+
+  </div>
+
+
   <div id="openElementary" class="modalDialog">
 
     <div class="modal-img">
       <a href="#close" title="Close" class="close">X</a>
+      <img src="./resources/images/1erGrado.jpg" alt="">
       <h4>Elementary School</h4>
       <h2>Escuela Parcelas Coco - Salinas, PR</h2>
     </div>
@@ -1171,7 +1182,7 @@
     <!-- Skills Lines Stops Starts Here -->
 
     <div id="openArchitectural" class="modalDialog">
-      <divclass="modal-img">
+      <div class="modal-img">
         <a href="#close" title="Close" class="close">X</a>
         <img src="./resources/images/architecturaldrafting.jpg" alt="">
       </div>
@@ -1216,6 +1227,20 @@
       <div class="modal-img">
         <a href="#close" title="Close" class="close">X</a>
         <img src="./resources/images/CavanaghConstruction.png" alt="">
+      </div>
+    </div>
+
+    <div id="openManuals" class="modalDialog">
+      <div class="modal-object">
+        <a href="#close" title="Close" class="close">X</a>
+        <object width="600" height="500" data="./resources/objects/wiki-moodle.pdf"></object>
+      </div>
+    </div>
+
+    <div id="openVideos" class="modalDialog">
+      <div class="modal-object">
+        <a href="#close" title="Close" class="close">X</a>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/b5f2RphLN6c" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
 

@@ -167,6 +167,13 @@ text#keyTitle {
         color: white;
   }
 
+  .modalDialog img {
+    max-width: 650px;
+    max-height: 550px;
+    display: block;
+    margin: auto;
+  }
+
   div .modal-object {
   	max-width: 600px;
     max-height: 500px;
@@ -175,7 +182,12 @@ text#keyTitle {
   	padding: 2rem;
   	border-radius: 10px;
   	background: #000;
-    text-align: center;
+  }
+
+  .modalDialog object,
+  .modalDialog iframe {
+    display: block;
+    margin: auto;
   }
 
   div .modal-text {
@@ -225,13 +237,6 @@ text#keyTitle {
   .modal-text li {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-  }
-
-  .modalDialog img {
-    max-width: 650px;
-    max-height: 500px;
-    display: block;
-    margin: auto;
   }
 
   .close {

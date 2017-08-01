@@ -156,20 +156,29 @@ text#keyTitle {
   	pointer-events: auto;
   }
 
-  div .modal-img {
-  	max-width: 650px;
-    max-height: 550px;
+  div .modal-img-vertical {
+  	width: 30%;
   	position: relative;
-  	margin: 10% auto;
-  	padding: 2rem;
+  	margin: 8% auto;
+  	padding: 1rem;
+  	border-radius: 10px;
+  	background: #000;
+        color: white;
+  }
+
+  div .modal-img {
+  	width: 50%;
+  	position: relative;
+  	margin: 8% auto;
+  	padding: 1rem;
   	border-radius: 10px;
   	background: #000;
         color: white;
   }
 
   .modalDialog img {
-    max-width: 650px;
-    max-height: 400px;
+    width: 100%;
+    height: auto;
     display: block;
     margin: auto;
   }

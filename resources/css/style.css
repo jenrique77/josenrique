@@ -77,9 +77,16 @@ section#background-metromap {
   /* Edu Line */
 
   #upr-rp:hover,
-  #sagrado:hover {
+  #sagrado:hover,
+  #de-1:hover,
+  #cdata:hover {
   width: 65px;
   height: 65px;
+  }
+
+  #de-2:hover {
+  width: 45px;
+  height: 45px;
   }
 
   /* Prof Line */

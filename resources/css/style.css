@@ -70,31 +70,6 @@ section#background-metromap {
   background-repeat: no-repeat;
 }
 
-/* Stops Hover Color */
-
-  /* Life Line */
-
-  /* Edu Line */
-
-  #upr-rp:hover,
-  #sagrado:hover,
-  #de-1:hover,
-  #cdata:hover {
-  width: 65px;
-  height: 65px;
-  }
-
-  #de-2:hover {
-  width: 45px;
-  height: 45px;
-  }
-
-  /* Prof Line */
-
-  /* Art & Design Skills Line */
-
-  /* Prof Skills Line */
-
 .keyInfo text {
   font-family: 'Didact Gothic', sans-serif;
   font-size: 20px;
@@ -174,7 +149,7 @@ text#keyTitle {
   }
 
   div .modal-img {
-  	width: 50%;
+  	width: 40%;
   	position: relative;
   	margin: 8% auto;
   	padding: 1rem;

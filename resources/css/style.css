@@ -98,7 +98,7 @@ text#keyTitle {
       transition: .05s;
   }
 
-  .tooltip .tooltiptext:after {
+  .tooltip .tooltiptext::after {
       content: "";
   }
 

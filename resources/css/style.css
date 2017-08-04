@@ -3,9 +3,6 @@ html {
   font-size: 15px;
 }
 
-div {
-  border: 1rem solid black;
-}
 /* heather */
 
 header {
@@ -39,8 +36,6 @@ div.flex-header {
 #JE-title h1 {
   font-family: 'Didact Gothic', sans-serif;
   font-size: 3rem;
-
-
 }
 
 #JE-favs {
@@ -70,8 +65,20 @@ section#background-metromap {
   background-repeat: no-repeat;
 }
 
-.keyInfo text {
+text {
   font-family: 'Didact Gothic', sans-serif;
+}
+
+#subtitle text {
+  font-size: 2rem;
+}
+
+#copyright text {
+  font-size: 1rem;
+}
+
+
+.keyInfo text {
   font-size: 20px;
   text-anchor: start;
 }
@@ -91,7 +98,7 @@ text#keyTitle {
       transition: .05s;
   }
 
-  .tooltip .tooltiptext::after {
+  .tooltip .tooltiptext:after {
       content: "";
   }
 

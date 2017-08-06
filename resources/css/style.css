@@ -89,7 +89,114 @@ text#keyTitle {
   text-anchor: middle;
 }
 
+/* hoover */
+
+/* life line */
+
+#lic-arte-pr:hover,
+#lic-tecno-pr:hover,
+#lic-ct:hover,
+#lic-ma:hover {
+stroke-width: 2.5;
+fill: #fce5ab;
+}
+
+  /* Travels */
+
+  #mx-airplane:hover {
+    display: none;
+  }
+
+/* educational line */
+
+#elementary-school:hover,
+#middle-school:hover,
+#high-school:hover,
+#pd-uprrp:hover,
+#pd-de1:hover,
+#pd-hets:hover,
+#pd-cdata:hover,
+#pd-de2:hover,
+#pd-jfk:hover,
+#pd-girlsinc:hover {
+  stroke-width: 2.5;
+  fill: #7cbaea;
+}
+
+/* professional line */
+
+/* art/design skills line */
+
+#crafts:hover,
+#industrial-arts:hover,
+#drafting:hover,
+#music:hover,
+#dance:hover,
+#architecture:hover,
+#mechanical:hover,
+#artisanal-arts:hover,
+#music-app:hover,
+#art-app:hover,
+#art-history:hover,
+#design:hover,
+#drawing:hover,
+#sculpture:hover,
+#painting:hover,
+#printmaking:hover,
+#photography:hover,
+#logos:hover,
+#webdesign:hover,
+#manuals:hover,
+#videos:hover,
+#graphs:hover,
+#layout:hover,
+#brochures:hover,
+#flyers:hover,
+#envelopes:hover,
+#letterheads:hover,
+#business-cards:hover,
+#typography:hover,
+#bookcover:hover,
+#postcards:hover,
+#posters:hover,
+#packaging:hover,
+#webdevelopment:hover {
+  stroke-width: 2.5;
+  fill: #cde585;
+}
+
+/* professional skills line */
+
+#coustumer-service:hover,
+#pedagogy:hover,
+#curriculum:hover,
+#classroom:hover,
+#assessment:hover,
+#educational-technology:hover,
+#instructional-design:hover,
+#andragogy:hover,
+#presentations:hover,
+#workshops:hover,
+#oline-courses:hover,
+#oline-tutorials:hover,
+#LMS:hover,
+#CMS:hover,
+#web2:hover,
+#social-media:hover,
+#english:hover,
+#tech-integration:hover,
+#operations:hover,
+#second-language:hover,
+#spanish-second:hover,
+#responsive-classroom:hover,
+#adobe:hover,
+#networking:hover {
+  stroke-width: 2.5;
+  fill: #f9b993;
+}
+
 /* Tooltips */
+
   .tooltip {
       cursor: context-menu;
   }
@@ -104,6 +211,7 @@ text#keyTitle {
   }
 
   /* Show the tooltip text when you mouse over the tooltip container */
+
   .tooltip:hover .tooltiptext {
       visibility: visible;
       opacity: 1;
@@ -147,13 +255,13 @@ text#keyTitle {
   }
 
   div .modal-img-vertical {
-  	width: 30%;
+  	max-width: 30%;
   	position: relative;
   	margin: 8% auto;
   	padding: 1rem;
   	border-radius: 10px;
   	background: #000;
-        color: white;
+    color: white;
   }
 
   div .modal-img {

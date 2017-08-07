@@ -93,6 +93,10 @@ text#keyTitle {
 
 /* life line */
 
+#pr-flag:hover {
+  display: none;
+}
+
 #lic-arte-pr:hover,
 #lic-tecno-pr:hover,
 #lic-ct:hover,
@@ -110,16 +114,33 @@ fill: #fce5ab;
 /* educational line */
 
 #elementary-school:hover,
-#middle-school:hover,
-#high-school:hover,
-#pd-uprrp:hover,
-#pd-de1:hover,
+#middle-school:hover {
+  r: 1.25%;
+  fill: #7cbaea;
+}
+
+
+#high-school:hover {
+  r: 1.5%;
+  fill: #7cbaea;
+}
+
 #pd-hets:hover,
-#pd-cdata:hover,
+#pd-jfk:hover {
+  r: .625%;
+  fill: #7cbaea;
+}
+
+#pd-de1:hover,
+#pd-cdata:hover {
+  r: .875%;
+  fill: #7cbaea;
+}
+
+#pd-uprrp:hover,
 #pd-de2:hover,
-#pd-jfk:hover,
 #pd-girlsinc:hover {
-  stroke-width: 2.5;
+  r: .50%;
   fill: #7cbaea;
 }
 
@@ -127,17 +148,18 @@ fill: #fce5ab;
 
 /* art/design skills line */
 
+#music:hover{
+  r: .50%;
+  fill: #cde585;
+  }
+
 #crafts:hover,
 #industrial-arts:hover,
 #drafting:hover,
-#music:hover,
-#dance:hover,
-#architecture:hover,
 #mechanical:hover,
 #artisanal-arts:hover,
 #music-app:hover,
 #art-app:hover,
-#art-history:hover,
 #design:hover,
 #drawing:hover,
 #sculpture:hover,
@@ -161,14 +183,21 @@ fill: #fce5ab;
 #posters:hover,
 #packaging:hover,
 #webdevelopment:hover {
-  stroke-width: 2.5;
+  r: .625%;
   fill: #cde585;
+}
+
+#dance:hover,
+#architecture:hover,
+#art-history:hover {
+r: .875%;
+fill: #cde585;
 }
 
 /* professional skills line */
 
 #coustumer-service:hover,
-#pedagogy:hover,
+#managment:hover,
 #curriculum:hover,
 #classroom:hover,
 #assessment:hover,
@@ -191,7 +220,12 @@ fill: #fce5ab;
 #responsive-classroom:hover,
 #adobe:hover,
 #networking:hover {
-  stroke-width: 2.5;
+  r: .625%;
+  fill: #f9b993;
+}
+
+#pedagogy:hover {
+  r: .875%;
   fill: #f9b993;
 }
 

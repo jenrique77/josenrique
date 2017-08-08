@@ -27,7 +27,7 @@ div.flex-header {
 }
 
 #JE-title {
-  width: 65%;
+  width: 75%;
   margin: .5rem 0 1rem 1.5rem;
   display: flex;
   align-items: center;
@@ -39,7 +39,7 @@ div.flex-header {
 }
 
 #JE-favs {
-  width: 20%;
+  width: 10%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -93,10 +93,6 @@ text#keyTitle {
 
 /* life line */
 
-#pr-flag:hover {
-  display: none;
-}
-
 #lic-arte-pr:hover,
 #lic-tecno-pr:hover,
 #lic-ct:hover,
@@ -107,9 +103,7 @@ fill: #fce5ab;
 
   /* Travels */
 
-  #mx-airplane:hover {
-    display: none;
-  }
+
 
 /* educational line */
 
@@ -145,6 +139,28 @@ fill: #fce5ab;
 }
 
 /* professional line */
+
+#greco:hover,
+#farmacia:hover,
+#cine:hover,
+#pizzahut:hover,
+#gap:hover,
+#anisa:hover,
+#practica:hover,
+#manualidades:hover,
+#escuelaAbierta:hover,
+#uprh-ccc:hover {
+  r: .50%;
+  fill: #f7969a;
+}
+
+#antoninos:hover,
+#biblioteca:hover {
+  r: .875%;
+  fill: #f7969a;
+}
+
+
 
 /* art/design skills line */
 

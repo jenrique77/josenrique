@@ -132,7 +132,7 @@ fill: #fce5ab;
 #pd-uprrp:hover,
 #pd-de2:hover,
 #pd-girlsinc:hover {
-  r: .50%;
+  r: .40%;
   fill: #7cbaea;
 }
 
@@ -148,7 +148,7 @@ fill: #fce5ab;
 #manualidades:hover,
 #escuelaAbierta:hover,
 #uprh-ccc:hover {
-  r: .50%;
+  r: .40%;
   fill: #f7969a;
 }
 
@@ -163,7 +163,7 @@ fill: #fce5ab;
 /* art/design skills line */
 
 #music:hover{
-  r: .50%;
+  r: .40%;
   fill: #cde585;
   }
 

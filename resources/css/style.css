@@ -103,8 +103,6 @@ fill: #fce5ab;
 
   /* Travels */
 
-
-
 /* educational line */
 
 #elementary-school:hover,
@@ -150,7 +148,7 @@ fill: #fce5ab;
 #manualidades:hover,
 #escuelaAbierta:hover,
 #uprh-ccc:hover {
-  r: .50%;
+  r: .625%;
   fill: #f7969a;
 }
 
